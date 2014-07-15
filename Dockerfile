@@ -1,5 +1,6 @@
 from    ubuntu:14.04
 run     echo 'deb http://us.archive.ubuntu.com/ubuntu/ trusty universe' >> /etc/apt/sources.list
+run     echo 'deb http://eu-west-1.ec2.archive.ubuntu.com/ubuntu/ trusty-updates main' >> /etc/apt/sources.list
 run     apt-get -y update
 run     apt-get -y upgrade
 
