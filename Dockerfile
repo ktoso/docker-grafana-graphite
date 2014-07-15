@@ -84,6 +84,9 @@ expose  8125/udp
 # StatsD Management port
 expose  8126
 
+# Graphite TCP port
+expose 2003
+
 
 
 # -------- #
